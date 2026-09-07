@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timetable</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 800px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        td {
+            background-color: #f9f9f9;
+        }
+
+        td[rowspan] {
+            background-color: #d1e7dd;
+        }
+
+        td[colspan] {
+            background-color: #fff3cd;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Dhiti Wadhwa Timetable</h1>
+        <h2>Division and Batch: B1, Roll No: 16010123110, Member ID: 1620230478</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Time Slot</th>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                </tr>
+            </thead>
+            <tbody>
+             <!---  <tr>
+                    <td>8-9</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>-->
+                <tr>
+                    <td>9-10</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td rowspan="2">MLL B207</td>
+                    <td rowspan="2">DVL B207</td>
+                </tr>
+                <tr>
+                    <td>10-11</td>
+                    <td>ML A-CCF</td>
+                    <td>ML A104</td>
+                    <td>ML A104</td>
+                </tr>
+                <tr>
+                    <td>11-12</td>
+                    <td>DSIP A104</td>
+                    <td rowspan="2" >DSIPL B116B</td>
+                    <td rowspan="2">AIL B216</td>
+                    <td>AI A104</td>
+                    <td rowspan="2">NISL B209</td>
+                </tr>
+                <tr>
+                    <td>12-1</td>
+                    <td>AI A104</td>
+                    <td>CC A104</td>
+                    <!--<td></td>
+                    <td></td>-->
+                </tr>
+                <tr>
+                    <td>1-2</td>
+                    <td colspan="5">LUNCH</td>
+                </tr>
+                <tr>
+                    <td>2-3</td>
+                    <td>CC A104</td>
+                    <td>DSIP A104</td>
+                    <td>NIS A104</td>
+                    <td>DSIP A104</td>
+                    <td>AI A104</td>
+                </tr>
+                <tr>
+                    <td>3-4</td>
+                    <td></td>
+                    <td>NIS A104</td>
+                    <td>CC A104</td>
+                    <td></td>
+                    <td>NIF A104</td>
+                </tr>
+             <tr>
+                    <td>4-5</td>
+                    <td></td>
+                    <td rowspan="2">CCL B207</td>
+                    <td></td>
+                    <td rowspan="2"> Project-1 B113</td>
+                    <td></td>
+                </tr>
+              <!-- <tr>
+                    <td>5-6</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>-->
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>

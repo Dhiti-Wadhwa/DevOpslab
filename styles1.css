@@ -1,0 +1,58 @@
+/* General Styles */
+body {
+    background-color: darkslategray;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0;
+}
+
+/* Form Container */
+form {
+    background: darkolivegreen;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    width: 320px;
+    text-align: center;
+}
+
+/* Label Styling */
+label {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: whitesmoke;
+}
+
+/* Input Fields */
+input {
+    width: calc(100% - 20px); 
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    font-size: 16px;
+    display: block; 
+}
+
+/* Button Styling */
+button {
+    background-color: rgb(10, 60, 10);
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+

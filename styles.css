@@ -1,0 +1,79 @@
+/* General Styles */
+body {
+    background-color: lightgray;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+h1 {
+    text-align: center;
+    font-style: italic;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    color: rgb(10, 60, 10);
+    margin-top: 15px;
+}
+
+/* Button Styles */
+button {
+    background-color: darkgrey;
+    color:rgb(10, 60, 10);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color:darkslategrey;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Image Styles */
+img {
+    display: flex;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Paragraph Styles */
+p {
+    margin: 20px auto;
+    padding: 0 5px;
+    max-width: 800px;  
+    text-align: justify;
+    color: #222;
+}
+
+p i {
+    font-weight: bold;
+}
+
+
+
+p u {
+    color: lightslategray;
+    text-decoration: underline;
+    
+}
+
+/* Marquee Styles */
+marquee {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    color: white;
+}
+
+
